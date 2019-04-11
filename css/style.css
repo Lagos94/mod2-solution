@@ -1,0 +1,103 @@
+* {
+		position: relative;
+		box-sizing: border-box;
+		font-family: sans-serif, arial, monospace, "Times New Roman";
+	}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+
+.row {
+display: inline-block;
+width: 100%;
+left: 2.5%;
+}
+
+@media (min-width: 992px){
+	div.item{
+		width: 29%;
+	}
+	div.item1{
+		width: 29%;
+	}
+}
+
+@media (min-width: 768px) and (max-width:991px){
+	div.item {
+		width: 44.55%;
+	}
+	div.item1 {
+		width: 94.25%;
+	}
+
+}
+
+@media (max-width: 767px){
+	div.item {
+		width: 100%;
+	}
+	div.item1{
+		width: 100%;
+	}
+	.row {
+		left: 0%;
+	}
+}
+
+.item {
+width: 275px;
+height: 150px;
+border: 1px;
+padding-left: 0.6%;
+padding-top: 2em;
+float: left;
+margin-right: 40px;
+margin-top: 20px;
+text-align: left;
+position: relative;
+background: #0099ff; /*blue*/
+}
+
+.item1 {
+width: 275px;
+height: 150px;
+border: 1px;
+padding-left: 0.6%;
+padding-top: 2em;
+float: left;
+margin-right: 40px;
+margin-top: 20px;
+text-align: left;
+position: relative;
+background: #0099ff; /*blue*/
+}
+
+#miniH1{
+	width: 100px;
+	text-align: center;
+	font-size: 125%;
+	background: #ff0000; /*red*/
+	float: right;
+	position: relative;
+	bottom: 26.5%;
+}
+#miniH2{
+	width: 100px;
+	text-align: center;
+	font-size: 125%;
+	background: #ff55ff; /*pink*/
+	float: right;
+	position: relative;
+	bottom: 26.5%;
+}
+#miniH3{
+	width: 100px;
+	text-align: center;
+	font-size: 125%;
+	background: #55ff00; /*lt green*/
+	float: right;
+	position: relative;
+	bottom: 26.5%;
+}
